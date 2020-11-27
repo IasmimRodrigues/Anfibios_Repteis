@@ -1,0 +1,79 @@
+body {
+    background: #F4F1DE;
+}
+
+#quiz {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+header .logo {
+    max-width: 10px;
+}
+
+.quiz{
+    margin: 1.5rem auto;
+    width: 50%;
+}
+
+.button {
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 0.8rem;
+    margin-top: 13rem;
+
+}
+
+.button .informations {
+    padding: 2rem 6.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.button .informations img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.button .informations div {
+    margin-left: 2.4rem;
+}
+
+
+.button .informations div strong {
+    font: 600 2rem Archivo;
+    display: block;
+    color: #3D405B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button .informations div span {
+    font-size: 1.6rem;
+    display: block;
+    margin-top: 0.4rem;
+}
+
+.button .informations a {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #81B29A;
+    border: 2px solid #81B29A;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.button .informations a:hover {
+    border: 2px solid #81B29A;
+    background-color: transparent;
+    color: #81B29A;
+}

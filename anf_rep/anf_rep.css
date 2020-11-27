@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#grupos {
+    display: flex;
+    background: #F4F1DE;
+}
+
+main {
+    flex: 1;
+}
+
+
+.anf {
+    width: 60rem;
+    margin: 100px auto;
+    background: #fff;
+    padding: 100px;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.with-sidebar .anf .image {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    float: left;
+    overflow: hidden; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.anf hr {
+    border: none;
+    height: 2px;
+    width: 100%;
+    background-color: #81B29A;
+}
+
+.anf .content h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    color: #E07A5F;
+    margin-top: 20px;
+}
+
+.anf .content ul {
+    font-family: 'Poppins', sans-serif;
+    
+    padding: 20px;
+}
+
+.anf .content .topico {
+    margin-left: 40px;
+    color: #3D405B;
+}
+
+.anf .content .sub {
+    margin-left: 60px;
+    color: #494D6E;
+}
+
+.anf .content .sub2 {
+    margin-left: 80px;
+    color: #52567A;
+}
+
+.anf .content .sub3 {
+    margin-left: 100px;
+    color: #5A5E87;
+}
+
+.anf .content .sub4 {
+    margin-left: 120px;
+    color: #626693;
+}
